@@ -16,6 +16,9 @@ public class InitialDepositAmtCalc {
     System.out.print("Enter number of years: ");
     double years = input.nextDouble();
 
+    //Close the input
+    input.close();
+    
     //Calculate initial deposit
    double initialDeposit = finalAccountValue / Math.pow(1 + annualInterestRate / 100,years);
 
