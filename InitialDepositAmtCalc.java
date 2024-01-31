@@ -1,3 +1,6 @@
+// Anthony Riad
+// 1/31/2024
+
 import java.util.Scanner;
 
 public class InitialDepositAmtCalc {
